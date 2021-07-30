@@ -42,7 +42,7 @@ export default function Navbar({ isPhone }) {
             <NavBarStyle animate="animate" variants={navbarVariants} initial="initial"
                 exit="exit" id="navbar-container">                
                 <motion.a style={{ textDecoration: "none", color: "white" }}
-                    href="https://blog.sohail-saha.in/">
+                    href="https://captain-woof.medium.com/">
                     <PageButton layout layoutId="blog-button"
                         backgroundColor="#00000000" backgroundColorHover={Colors.HomepageBlogButtonColor}
                         text="Blog" isPhone={isPhone} />
