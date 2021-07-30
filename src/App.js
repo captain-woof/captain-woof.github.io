@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components"
+import Homepage from "./components/home-page/index"
+import { motion, AnimatePresence } from "framer-motion"
+import { useLocation, Route, Switch } from "react-router-dom"
+import AboutPage from "./components/about-page/index"
+import ProjectsPage from "./components/projects-page/index"
+import {useMediaQuery} from "react-responsive"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const MainContainer = styled(motion.div)`
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    ::-moz-scrollbar {
+        display: none; 
+    }
+`
+
+export default function App() {
+    const location = useLocation()
+    const isPhone = useMediaQuery({ query: '(max-width: 480px)' })
+
+    return (
+        <MainContainer id="main-container">
+            <AnimatePresence>
+                <Switch key={location.pathname} location={location}>
+                    <Route exact path="/">
+                        <Homepage isPhone={isPhone}/>
+                    </Route>
+                    <Route exact path="/about">
+                        <AboutPage isPhone={isPhone}/>
+                    </Route>
+                    <Route exact path="/projects">
+                        <ProjectsPage isPhone={isPhone}/>
+                    </Route>
+                </Switch>
+            </AnimatePresence>
+        </MainContainer>
+    )
 }
-
-export default App;
