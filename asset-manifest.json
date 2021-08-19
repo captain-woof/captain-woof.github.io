@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.667a395b.chunk.css",
-    "main.js": "/static/js/main.e570a700.chunk.js",
-    "main.js.map": "/static/js/main.e570a700.chunk.js.map",
+    "main.js": "/static/js/main.31376dc1.chunk.js",
+    "main.js.map": "/static/js/main.31376dc1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d0605945.js",
     "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
     "static/js/2.8cf1916b.chunk.js": "/static/js/2.8cf1916b.chunk.js",
@@ -23,6 +23,7 @@
     "static/media/down-arrow.d8aa8930.svg": "/static/media/down-arrow.d8aa8930.svg",
     "static/media/electron_logo.743c23e7.svg": "/static/media/electron_logo.743c23e7.svg",
     "static/media/email_logo.435e1ddf.svg": "/static/media/email_logo.435e1ddf.svg",
+    "static/media/express_logo.4d94b5c2.svg": "/static/media/express_logo.4d94b5c2.svg",
     "static/media/github_logo.1b2f2698.svg": "/static/media/github_logo.1b2f2698.svg",
     "static/media/handsdown.c3b30782.jpg": "/static/media/handsdown.c3b30782.jpg",
     "static/media/html_logo.d421cccf.svg": "/static/media/html_logo.d421cccf.svg",
@@ -53,6 +54,6 @@
     "static/js/runtime-main.d0605945.js",
     "static/js/2.8cf1916b.chunk.js",
     "static/css/main.667a395b.chunk.css",
-    "static/js/main.e570a700.chunk.js"
+    "static/js/main.31376dc1.chunk.js"
   ]
 }
