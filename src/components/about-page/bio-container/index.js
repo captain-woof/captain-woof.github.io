@@ -44,7 +44,7 @@ const ScrollDownArrow = styled(motion.img)`
     height: 3vmax;
     width: 3vmax;
     z-index: 5;
-    top: 90%;
+    bottom: 4%;
     left: 50%;
 `
 

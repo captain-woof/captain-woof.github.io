@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "license": "GPLv3",
   "homepage": "https://sohail-saha.in/",
   "private": false,
   "dependencies": {

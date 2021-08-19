@@ -9,6 +9,7 @@ import JS_Logo from "../../../assets/logos/javascript_logo.svg"
 import NodeJS_Logo from "../../../assets/logos/nodejs_logo.svg"
 import React_Logo from "../../../assets/logos/react_logo.svg"
 import Electron_Logo from "../../../assets/logos/electron_logo.svg"
+import ExpressLogo from "../../../assets/logos/express_logo.svg"
 import LinuxLogo from "../.././../assets/logos/linux_logo.svg"
 import WindowsLogo from "../.././../assets/logos/windows_logo.svg"
 import BashLogo from "../.././../assets/logos/bash_logo.svg"
@@ -54,7 +55,7 @@ export default function ToolbeltContainer({ isPhone }) {
             <ToolbeltHeading />
             <ToolbeltParentContainer id="toolbelt-container">
                 <ToolbeltCard isPhone={isPhone} title="Web Development"
-                    logos={[HTML_Logo, CSS_Logo, JS_Logo, NodeJS_Logo, React_Logo, Electron_Logo]} />
+                    logos={[HTML_Logo, CSS_Logo, JS_Logo, NodeJS_Logo, React_Logo, ExpressLogo, Electron_Logo]} />
                 <ToolbeltCard isPhone={isPhone} title="OS Proficiency"
                     logos={[LinuxLogo, WindowsLogo]} />
                 <ToolbeltCard isPhone={isPhone} title="Scripting"
