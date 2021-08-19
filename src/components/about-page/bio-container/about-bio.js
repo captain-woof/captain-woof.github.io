@@ -75,7 +75,7 @@ const BioDescription = styled(motion.div)`
 export default function AboutBio({ isPhone }) {
     return (
         <AboutBioContainer id="about-bio-outer-container">
-            <BioDescription style={{ fontSize: (isPhone ? "12px" : "16px"), width: (isPhone ? "70%" : "50%") }}
+            <BioDescription style={{ fontSize: (isPhone ? "12px" : "17px"), width: (isPhone ? "70%" : "50%") }}
                 id="about-bio-description" variants={isPhone ? bioVariantPhone : bioVariant}>
                 Hi! I am Sohail Saha (aka CaptainWoof), and I am a <b>Full-stack developer <i>(MERN Stack)</i></b>, and a <b>Cybersecurity enthusiast</b> <i>(couldn't find a better word)</i>.  🌴<br /><br />
                 As a MERN app developer, I love designing frontends and backends as long as the laws of asynchronousity bless me. 🙇 <br /><br />

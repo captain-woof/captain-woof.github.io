@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "license": "GPLv3",
+  "license": "GPL-3.0-or-later",
   "homepage": "https://sohail-saha.in/",
   "private": false,
   "dependencies": {
@@ -24,7 +24,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -b gh-pages -d build"
+    "deploy": "gh-pages -b gh-pages -d build",
+    "build_and_deploy" : "yarn build && yarn deploy"
   },
   "eslintConfig": {
     "extends": [
