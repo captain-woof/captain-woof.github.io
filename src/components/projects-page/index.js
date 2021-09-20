@@ -11,11 +11,15 @@ import WoofServerImage from "../../assets/images/woof-server.png"
 import WeatherCMSImage from "../../assets/images/weather.jpg"
 import HandsdownImage from "../../assets/images/handsdown.jpg"
 import ZhiZhuImage from "../../assets/images/zhi-zhu.png"
+import ReactWaterfallGridImage from '../../assets/images/react-waterfall-grid.jpg'
+import BrownTrackImage from '../../assets/images/brown-track.jpg'
 
 import PythonLogo from "../../assets/logos/python_logo.svg"
 import CsharpLogo from "../../assets/logos/csharp_logo.svg"
 import NodeJSLogo from "../../assets/logos/nodejs_logo.svg"
 import ElectronLogo from "../../assets/logos/electron_logo.svg"
+import ReactLogo from '../../assets/logos/react_logo.svg'
+import ExpressLogo from '../../assets/logos/express_logo.svg'
 
 
 const ProjectsPageContainer = styled(motion.div)`
@@ -170,6 +174,10 @@ export default function ProjectsPage({ isPhone }) {
                 textAlign: (isPhone ? "center" : "left")
             }}>Projects</Heading>
             <CardContainer id="project-cards-container" style={{ marginTop: (isPhone ? "100px" : "128px") }}>
+                <ProjectCard className="project-card" name="React-Waterfall-Grid" logo={ReactLogo}
+                    image={ReactWaterfallGridImage} description="React Waterfall Grid is a library of fully responsive and customizable waterfall grids (vertical and horizontal). All it needs is an array of your elements, and it handles the rest out-of-the-box." buttons={[{ text: "Source", url: "https://github.com/captain-woof/react-waterfall-grid" }, { text: "Demo", url: "https://sohail-saha.in/react-waterfall-grid/" }]} />
+                <ProjectCard className="project-card" name="Brown-Track" logo={ExpressLogo}
+                    image={BrownTrackImage} description="A price-tracker for Amazon; track how product prices fluctuate on Amazon and know the best time to buy. Brown-Track notifies you on your email when lowest prices are observed, making things even better!" buttons={[{ text: "Source", url: "https://github.com/captain-woof/brown-track" }, { text: "Visit", url: "https://brown-track.herokuapp.com/" }]} />
                 <ProjectCard className="project-card" name="Handsdown" logo={ElectronLogo}
                     image={HandsdownImage} description="Handsdown is a cross-platform markdown editor and visualizer, all rolled into one. Use it to take notes, create READMEs, basically whatever you use markdowns for." buttons={[{ text: "Source", url: "https://github.com/captain-woof/handsdown-markdown-editor-visualizer" }]} />
                 <ProjectCard className="project-card" name="Weather Station CMS" logo={PythonLogo} image={WeatherCMSImage} description="A simple CMS where you can register at to view the weather at your location, plus query for data from any place, provided that we have a weather station at that place. Simply create an account and get started." buttons={[{ text: "Source", url: "https://github.com/captain-woof/weather-management-cms" }, { text: "Demo", url: "https://weather-information-cms.herokuapp.com/" }]} />
