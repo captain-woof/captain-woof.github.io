@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.667a395b.chunk.css",
-    "main.js": "/static/js/main.713a6d2f.chunk.js",
-    "main.js.map": "/static/js/main.713a6d2f.chunk.js.map",
+    "main.js": "/static/js/main.629a8cac.chunk.js",
+    "main.js.map": "/static/js/main.629a8cac.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d0605945.js",
     "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
-    "static/js/2.8cf1916b.chunk.js": "/static/js/2.8cf1916b.chunk.js",
-    "static/js/2.8cf1916b.chunk.js.map": "/static/js/2.8cf1916b.chunk.js.map",
+    "static/js/2.166a8cdd.chunk.js": "/static/js/2.166a8cdd.chunk.js",
+    "static/js/2.166a8cdd.chunk.js.map": "/static/js/2.166a8cdd.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.667a395b.chunk.css.map": "/static/css/main.667a395b.chunk.css.map",
-    "static/js/2.8cf1916b.chunk.js.LICENSE.txt": "/static/js/2.8cf1916b.chunk.js.LICENSE.txt",
+    "static/js/2.166a8cdd.chunk.js.LICENSE.txt": "/static/js/2.166a8cdd.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/OpenSans-Regular.1b0809d5.ttf",
     "static/media/audacity_logo.04577aed.svg": "/static/media/audacity_logo.04577aed.svg",
     "static/media/background.15c73f1d.jpg": "/static/media/background.15c73f1d.jpg",
     "static/media/background2.ccc13100.jpg": "/static/media/background2.ccc13100.jpg",
+    "static/media/background3.814cf4eb.jpg": "/static/media/background3.814cf4eb.jpg",
     "static/media/bash_logo.968f3f62.svg": "/static/media/bash_logo.968f3f62.svg",
+    "static/media/brown-track.b0ec3a5f.jpg": "/static/media/brown-track.b0ec3a5f.jpg",
     "static/media/cpp_logo.2441702d.svg": "/static/media/cpp_logo.2441702d.svg",
     "static/media/csharp_logo.e2c0510d.svg": "/static/media/csharp_logo.e2c0510d.svg",
     "static/media/css_logo.5da907d7.svg": "/static/media/css_logo.5da907d7.svg",
@@ -41,6 +43,7 @@
     "static/media/powershell_logo.72744793.svg": "/static/media/powershell_logo.72744793.svg",
     "static/media/premirepro_logo.efd2d572.svg": "/static/media/premirepro_logo.efd2d572.svg",
     "static/media/python_logo.063da199.svg": "/static/media/python_logo.063da199.svg",
+    "static/media/react-waterfall-grid.1decd6b9.jpg": "/static/media/react-waterfall-grid.1decd6b9.jpg",
     "static/media/react_logo.6c1d44b8.svg": "/static/media/react_logo.6c1d44b8.svg",
     "static/media/redis_logo.73d7b010.svg": "/static/media/redis_logo.73d7b010.svg",
     "static/media/sqlserver_logo.0b95ec7d.svg": "/static/media/sqlserver_logo.0b95ec7d.svg",
@@ -52,8 +55,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d0605945.js",
-    "static/js/2.8cf1916b.chunk.js",
+    "static/js/2.166a8cdd.chunk.js",
     "static/css/main.667a395b.chunk.css",
-    "static/js/main.713a6d2f.chunk.js"
+    "static/js/main.629a8cac.chunk.js"
   ]
 }
