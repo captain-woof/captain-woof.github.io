@@ -57,6 +57,11 @@ export default function Navbar({ isPhone }) {
                         backgroundColor="#00000000" backgroundColorHover={Colors.HomepageAboutButtonColor}
                         text="About" isPhone={isPhone} />
                 </Link>
+                <Link style={{ textDecoration: "none", color: "white" }} to="/experience">
+                    <PageButton layout layoutId="experience-button"
+                        backgroundColor="#00000000" backgroundColorHover={Colors.HomepageExperienceButtonColor}
+                        text="Experience" isPhone={isPhone} />
+                </Link>
                 <motion.a target="_blank" rel="noreferrer" style={{ textDecoration: "none", color: "white" }}
                     href="https://drive.google.com/file/d/1se1QKQBUf4yjxSTzRHSfc4OBpB-W4dK2/view?usp=sharing">
                     <PageButton layout layoutId="resume-button"

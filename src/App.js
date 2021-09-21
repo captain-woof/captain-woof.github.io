@@ -4,7 +4,8 @@ import { motion, AnimatePresence } from "framer-motion"
 import { useLocation, Route, Switch } from "react-router-dom"
 import AboutPage from "./components/about-page/index"
 import ProjectsPage from "./components/projects-page/index"
-import {useMediaQuery} from "react-responsive"
+import { useMediaQuery } from "react-responsive"
+import ExperiencePage from "./components/experience-page/index.js"
 
 const MainContainer = styled(motion.div)`
     height: 100vh;
@@ -31,13 +32,16 @@ export default function App() {
             <AnimatePresence>
                 <Switch key={location.pathname} location={location}>
                     <Route exact path="/">
-                        <Homepage isPhone={isPhone}/>
+                        <Homepage isPhone={isPhone} />
                     </Route>
                     <Route exact path="/about">
-                        <AboutPage isPhone={isPhone}/>
+                        <AboutPage isPhone={isPhone} />
                     </Route>
                     <Route exact path="/projects">
-                        <ProjectsPage isPhone={isPhone}/>
+                        <ProjectsPage isPhone={isPhone} />
+                    </Route>
+                    <Route exact path="/experience">
+                        <ExperiencePage isPhone={isPhone} />
                     </Route>
                 </Switch>
             </AnimatePresence>
