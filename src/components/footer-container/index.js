@@ -73,7 +73,7 @@ const footerContainerVariant = {
     }
 }
 
-export default function Footer({ quote, person, isPhone }) {
+export default function Footer({ quote, person, isPhone, style }) {
     const [ref1, isHeadingOneVisible] = useInView()
     const [ref2, isHeadingTwoVisible] = useInView()
     const [ref3, isCreditsVisible] = useInView()
@@ -107,7 +107,7 @@ export default function Footer({ quote, person, isPhone }) {
 
     return (
         <FooterContainer id="footer-container" variants={footerContainerVariant} initial="initial" exit="exit"
-            animate="animate">
+            animate="animate" style={style}>
             <Quote id="footer-quote" variants={variants} ref={ref1} animate={headingOneAnimation}
                 exit="exit" initial="initial" style={{ fontSize: (isPhone ? "16px" : "20px") }}>
                 {"\"" + quote + "\""}
